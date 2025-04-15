@@ -1,0 +1,71 @@
+/* Global */
+
+body {
+    background: linear-gradient(ivory, burlywood);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0vh;
+    padding: 0vh;
+    font-family: 'Ubuntu Mono';
+    text-align: center;
+}
+
+
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+.page a {
+    color: navy;
+}
+
+.page a:hover {
+    color: navy;
+}
+
+.page a:visited {
+    color: navy;
+}
+
+/* Headerbar */
+
+.headerbar {
+    background: linear-gradient(royalblue, navy);
+    color: lightsteelblue;
+    font-family: 'Noto Serif';
+}
+
+.headerbar a {
+    color: lightsteelblue;
+    text-decoration: underline;
+}
+
+.headerbar a:hover {
+    color: lightsteelblue;
+}
+
+.headerbar a:visited {
+    color: lightsteelblue;
+}
+
+.headerbar ul {
+    list-style: none;
+}
+
+.headerbar ul li {
+    display: inline;
+}
+
+/* Page Content */
+
+/* Footerbar */
+
+.footerbar {
+    background: linear-gradient(gainsboro, gray);    
+    align-items: flex-end;
+    margin-top: auto;
+}
+
